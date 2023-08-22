@@ -1,6 +1,5 @@
-<style>
+
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-</style>
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +9,9 @@
 body{
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items:  center;
   justify-content: center;
   background-color: #f4f4f4;
-}
-.profile-card{
-  max-width: ;
 }
 .image{
   position: relative;
@@ -23,14 +19,32 @@ body{
   width: 150px ;
   border-radius: 50%;
   background-color: #4070f4;
-  padding: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 .image .profile-img{
+    position: relative;
     height: 100%;
     width: 100%;
-    justify-content: center;
-    object-fit: cover;
     border-radius: 50%;
+    object-fit: cover;
     border: 3px solid #fff;
+
+}
+.profile-card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 370px;
+  width: 100%;
+  background: #fff;
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-card .text-data{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
 }
